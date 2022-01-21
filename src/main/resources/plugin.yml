@@ -1,0 +1,11 @@
+name: SimpleShop
+version: '${project.version}'
+main: com.github.carthax08.simpleshop.PluginMain
+authors: [ CarThax08 ]
+description: A shop plugin for SimpleCurrencies (by me)
+commands:
+  shop:
+    description: Opens the shop
+    usage: /shop
+depend:
+  - SimpleCurrencies

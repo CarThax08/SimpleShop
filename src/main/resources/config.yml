@@ -1,0 +1,32 @@
+gui:
+  shop:
+    #Name for the GUI (Don't change this one)
+    name: "Shop"
+    #How many slots there are
+    slots: 27
+    #Items in the GUI
+    items:
+      #Slot the item is in (0 is top left)
+      0:
+        #Item type
+        itemtype: "iron_sword"
+        #Item name
+        itemname: "Example Item 1"
+        #What should happen when clicked
+        onclick: "Open Gui Example"
+  Example:
+    name: "Example"
+    slots: 27
+    items:
+      0:
+        itemtype: "iron_sword"
+        itemname: "Example Item 2"
+        onclick: "Open Gui Shop"
+      1:
+        itemtype: "iron_ingot"
+        itemname: "Charge Example"
+        onclick: "Charge 10 tokens"
+      2:
+        itemtype: "iron_nugget"
+        itemname: "Buying Example"
+        onclick: "Buy 1 Iron_Ingot for 10 tokens"
